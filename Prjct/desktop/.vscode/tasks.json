@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "AlbumReader: 开发模式",
+      "type": "shell",
+      "command": "pnpm start",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "AlbumReader: 类型检查",
+      "type": "shell",
+      "command": "pnpm typecheck",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": "$tsc"
+    },
+    {
+      "label": "AlbumReader: 格式化与检查",
+      "type": "shell",
+      "command": "pnpm lint:fix",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

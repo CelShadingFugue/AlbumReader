@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.eol": "\n",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.vite": true,
+    "**/out": true
+  }
+}
